@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_docker_kubernetes_hello_world_1685951698690-pr-trigger-input-set
+  identifier: Build_docker_kubernetes_hello_world_1685951698690prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: kube
+  pipeline:
+    identifier: Build_docker_kubernetes_hello_world_1685951698690
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
