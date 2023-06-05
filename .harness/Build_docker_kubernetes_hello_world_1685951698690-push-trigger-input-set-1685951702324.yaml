@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_docker_kubernetes_hello_world_1685951698690-push-trigger-input-set
+  identifier: Build_docker_kubernetes_hello_world_1685951698690pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: kube
+  pipeline:
+    identifier: Build_docker_kubernetes_hello_world_1685951698690
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
